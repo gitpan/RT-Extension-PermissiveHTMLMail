@@ -1,10 +1,8 @@
 use inc::Module::Install;
 
-
 RTx 'RT-Extension-PermissiveHTMLMail';
-all_from 'lib/RT/Extension/PermissiveHTMLMail.pm';
-readme_from 'lib/RT/Extension/PermissiveHTMLMail.pm';
-license  'gplv2';
+
+repository('https://github.com/bestpractical/rt-extension-permissivehtmlmail');
 
 sign;
 WriteAll;
